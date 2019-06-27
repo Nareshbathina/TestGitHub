@@ -1,0 +1,35 @@
+header {
+    background: #7700FF;
+
+    .logo {
+        font-weight: bold;
+    }
+    .navbar {
+        background-color: #b12c39!important;
+    }
+    .fa.fa-navicon {
+        color:white;
+      }
+    nav {
+        justify-self: right;
+       
+        ul {
+            list-style-type: none;
+            margin: 0; padding: 0;
+
+            li {
+                float: left;
+
+                a {
+                    padding: 1em;
+                    text-transform: uppercase;
+                    font-size: .8em;
+                    color: white;    
+                    &:hover {
+                        background: #9a8c9af0;
+                    }
+                }
+            }
+        }
+    }
+}
